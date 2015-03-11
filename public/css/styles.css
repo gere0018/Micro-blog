@@ -1,0 +1,135 @@
+/*******************************************
+				Defaults
+*******************************************/
+*{
+	padding:0;
+	margin: 0;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+html,body{
+background-color: #28A868;
+
+}
+h1{
+    font-family: 'Tangerine', cursive;
+    font-size: 2.5rem;
+}
+p{
+    font-family: 'Flamenco', cursive;
+    font-size: 1.5rem;
+}
+h1, p, li, h4, input{
+    color: #165C39;
+}
+/*******************************************
+				Layout
+*******************************************/
+/*header ********************************************************/
+header{
+    box-sizing: border-box;
+    padding: 1rem;
+    width: 100%;
+    background-color: #82DBAF;
+    border: 2px solid #28A868;
+}
+.formContainer{
+    width: 30%;
+    float:right;
+    margin-right: 2rem;
+}
+.formContainer p{
+    float: right;
+    padding-top: 10px;
+    font-size: 1rem;
+}
+#mainTitle{
+    text-align: center;
+    width: 40%;
+    float:left;
+
+}
+.btn{
+    border: 2px solid #28A868;
+    width: 35%;
+    margin: 0 1rem;
+    height:40px;
+    border-radius: 10px;
+    float: right;
+    background-color: #34DB87;
+    font-family: 'Flamenco', cursive;
+    font-size: 1rem;
+}
+/*body ********************************************************/
+html, body{
+    height: 100%;
+}
+.wrapper{
+    height: 100%;
+}
+
+.pageBodyContainer{
+    width: 80%;
+    margin: 0 auto;
+    height: 74%;
+    padding: 2rem;
+    background-color: mintcream;
+}
+.pageBodyContainer h1{
+    text-align: center;
+    padding-bottom: 2rem;
+    font-weight: bolder;
+    color: #34DB87;
+    -webkit-text-stroke: 1px  #28A868;
+}
+.pageBodyContainer li{
+    list-style: none;
+}
+.pageBodyContainer h4{
+    text-decoration: underline;
+}
+.timeStamp{
+    font-size: 1rem;
+    color: #34DB87;
+}
+
+
+
+/*footer ********************************************************/
+footer{
+    padding: 0.5rem;
+    width: 100%;
+    background-color: #82DBAF;
+    border: 2px solid #28A868;
+
+}
+footer p{
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+    font-size: 2rem;
+}
+footer span{
+    font-size: 3rem;
+}
+
+

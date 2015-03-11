@@ -1,0 +1,4 @@
+exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'Nehmat'@'localhost' (using password: YES)' in /Applications/MAMP/htdocs/micro-blog/includes/db-connect.php:8
+Stack trace:
+#0 /Applications/MAMP/htdocs/micro-blog/includes/db-connect.php(8): PDO->__construct('mysql:host=loca...', 'Nehmat', 'shiva333')
+#1 {main}
