@@ -1,4 +1,7 @@
 <?php
+//start the session
+session_start();
+//connect to the database
 try {
             $db_host = "localhost";  //  hostname
             $db_name = "mad9023";  //  databasename
@@ -15,4 +18,5 @@ try {
             file_put_contents('PDOErrors.txt',$err, FILE_APPEND);  // write some details to an error-log outside public_html
             die();  //  terminate connection
         }
+
 ?>

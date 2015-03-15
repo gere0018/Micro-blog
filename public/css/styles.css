@@ -31,16 +31,20 @@ html,body{
 background-color: #28A868;
 
 }
+
 h1{
     font-family: 'Tangerine', cursive;
     font-size: 2.5rem;
 }
 p{
     font-family: 'Flamenco', cursive;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
-h1, p, li, h4, input{
+
+h1, p, li, input{
     color: #165C39;
+
+
 }
 /*******************************************
 				Layout
@@ -60,7 +64,7 @@ header{
 }
 .formContainer p{
     float: right;
-    padding-top: 10px;
+    padding-top: 0.5rem;
     font-size: 1rem;
 }
 #mainTitle{
@@ -71,9 +75,10 @@ header{
 }
 .btn{
     border: 2px solid #28A868;
+    min-width: 100px;
     width: 35%;
     margin: 0 1rem;
-    height:40px;
+    height:2rem;
     border-radius: 10px;
     float: right;
     background-color: #34DB87;
@@ -91,7 +96,7 @@ html, body{
 .pageBodyContainer{
     width: 80%;
     margin: 0 auto;
-    height: 74%;
+    min-height: 74%;
     padding: 2rem;
     background-color: mintcream;
 }
@@ -105,13 +110,61 @@ html, body{
 .pageBodyContainer li{
     list-style: none;
 }
-.pageBodyContainer h4{
-    text-decoration: underline;
+
+#msgBox{
+   width: 90%;
+   height: 4rem;
+   padding: 1rem;
+   padding-top: 2rem;
+   background-color: #28A868;
+
 }
+#msgBox .btn{
+  width: 20%;
+
+}
+#msgContainer{
+   border: 2px solid #28A868;
+   width: 70%;
+   height: 2rem;
+}
+
+
+
 .timeStamp{
     font-size: 1rem;
     color: #34DB87;
 }
+.signUpFormContainer{
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: 'Flamenco', cursive;
+
+}
+.signUpFormContainer input{
+    margin: 1rem;
+    width: 60%;
+    height: 2rem;
+
+}
+
+.signUpFormContainer .btn{
+    float: none;
+
+}
+
+.signUpFormContainer h1{
+    text-align: left;
+
+}
+/*responsive Sign up form*/
+@media screen and (min-width: 700px){
+    .signUpFormContainer .btn{
+    margin-left: 6rem;
+    }
+}
+
 
 
 
